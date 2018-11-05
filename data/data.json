@@ -1,0 +1,38 @@
+{
+  "Name": "Test Object",
+  "DisplayName": "Test Object",
+  "Type": "Object",
+  "Property1": 0.7512,
+  "Property2": 15,
+  "NestedObject":
+  {
+		"Property1": "value1",
+		"Property2": "value2",
+		"ArrayData":
+		[
+			"Value1",
+			"Value2"
+		],
+		"NestedNestedObject": 
+		{
+			"Property1": "value1",
+			"Property2": "value2",
+			"ArrayData":
+			[
+				{
+					"ArrayProperty1": "ArrayValue1",
+					"ArrayProperty2": "ArrayValue2"
+				},
+				{
+					"ArrayProperty1": "ArrayValue3",
+					"ArrayProperty2": "ArrayValue4"
+				}
+			]
+		}
+  },
+  "ArrayData":
+  [
+    "Value1",
+    "Value2"
+  ]
+}
